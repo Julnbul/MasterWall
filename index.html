@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <title>Мастерстен</title>
+</head>
+
+  <body class="page">
+    <header class="header">
+  <div class="header__container container">
+    <a class="header__link-logo" href="index.html">
+      <img class="header__logo" src="img/logo.svg" alt="Логотип">
+    </a>
+    <p class="header__description">Механизированная стяжка<br> на немецком оборудовании<br> в Нижнем Новгороде</p>
+    <div class="header__contacts">
+      <div class="header__contact">
+        <img src="img/header-map-icon.svg" alt="" class="header__icon">
+        <p class="header__text">Посёлок ждановский, <br> ул. Школьная д. 30 кв. 45 </p>
+      </div>
+      <div class="header__contact">
+        <img src="img/header-mail-icon.svg" alt="" class="header__icon">
+        <p>osipov_902010@mail.ru</p>
+      </div>
+    </div>
+    <div class="hidden-mobile">
+      <p class="header__time">Работаем с 9:00 до 20:00</p>
+      <p class="header__phone text-demi">+7 (920) 020-60-49</p>
+    </div>
+    <button class="header__button button popup-open">Обратный звонок</button>
+    <button id="header-popup-open" class="visible-mobile">
+      <img src="img/header-burger-button.svg" alt="">
+    </button>
+  </div>
+</header>
+
+    <main class="page__main main">
+      <section class="start">
+        <div class="start__container container">
+          <div class="start__body">
+            <div class="start__image-wrapper">
+              <img src="img/start-bg.png" alt="" class="start__image" />
+            </div>
+            <div class="start__description">
+              <h1 class="start__title">
+                <span class="h1_small">Механизированная</span><br />
+                шпаклевка <span class="accent">стен</span>
+              </h1>
+              <div class="start__price">
+                <span class="start__sum-price text-demi">от 350 руб/м2</span>
+                <span class="start__text-price text-gray">«под ключ»</span>
+              </div>
+              <img
+                class="start__image-arrow"
+                src="img/start-arrow.svg"
+                alt=""
+              />
+              <button class="button button_accent popup-open">
+                Заказать бесплатный замер
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="conditions">
+          <div class="conditions__items">
+            <div class="conditions__item">
+              <p class="conditions__value text-heavy h3">от 150 м2</p>
+              <div class="conditions__line"></div>
+              <p class="conditions__text">Скорость работ</p>
+              <p class="conditions__text-important text-demi text-small">
+                За смену
+              </p>
+            </div>
+            <div class="conditions__item">
+              <p class="conditions__value text-heavy h3">от 250 руб</p>
+              <div class="conditions__line"></div>
+              <p class="conditions__text">Стоимость работ</p>
+              <p class="conditions__text-important text-demi text-small">
+                Под ключ
+              </p>
+            </div>
+            <div class="conditions__item">
+              <p class="conditions__value text-heavy h3">2 года</p>
+              <div class="conditions__line"></div>
+              <p class="conditions__text">Расширенной гарантии</p>
+              <p class="conditions__text-important text-demi text-small">
+                На все работы
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="building-types">
+        <div class="head-section">
+          <div class="head-section__container container">
+            <h2 class="head-section__title">Механизированная шпаклевка стен</h2>
+            <p class="head-section__text text-large text-demi">
+              идеально подходит для
+            </p>
+          </div>
+        </div>
+        <div class="building-types__container container pb">
+          <div class="building-types__body">
+            <div class="building-types__item">
+              <img
+                src="img/building-types-room.png"
+                alt=""
+                class="building-types__image"
+              />
+              <p class="building-types__text text-demi text-middle">Квартир</p>
+            </div>
+            <div class="building-types__item">
+              <img
+                src="img/building-types-cottage.png"
+                alt=""
+                class="building-types__image"
+              />
+              <p class="building-types__text text-demi text-middle">
+                Коттеджей
+              </p>
+            </div>
+            <div class="building-types__item">
+              <img
+                src="img/building-types-garage.png"
+                alt=""
+                class="building-types__image"
+              />
+              <p class="building-types__text text-demi text-middle">Гаражей</p>
+            </div>
+            <div class="building-types__item">
+              <img
+                src="img/building-types-school.png"
+                alt=""
+                class="building-types__image"
+              />
+              <p class="building-types__text text-demi text-middle">
+                Школ и детских садов
+              </p>
+            </div>
+            <div class="building-types__item">
+              <img
+                src="img/building-types-townhouse.png"
+                alt=""
+                class="building-types__image"
+              />
+              <p class="building-types__text text-demi text-middle">
+                Таунхаусов
+              </p>
+            </div>
+            <div class="building-types__item">
+              <button class="button popup-open">
+                Заказать бесплатный замер
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="calculator">
+        <div class="calculator__container container pt pb">
+          <div class="calculator__head">
+            <h2 class="calculator__title">
+              Рассчитайте за 1 минуту стоимость шпаклевки стен под ключ для
+              вашего обьекта
+            </h2>
+            <div class="calculator__bonus">
+              <img
+                src="img/calculator-icon.svg"
+                alt=""
+                class="calculator__icon"
+              />
+              <p class="calculator__text text-middle">за 1 минуту + бонус</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="guarantee">
+        <div class="head-section">
+          <div
+            class="head-section__container head-section__container_pt container pt"
+          >
+            <h2 class="head-section__title">Расширенная гарантия</h2>
+            <p class="head-section__text text-large text-demi">
+              на все виды работ
+            </p>
+          </div>
+        </div>
+        <div class="block-items">
+          <div class="container pb">
+            <div class="block-items__body">
+              <div class="block-items__items">
+                <div class="block-items__item">
+                  <h3 class="block-items__title">Гарантия соблюдения сроков</h3>
+                  <div class="block-items__line"></div>
+                  <div class="text-middle">
+                    Четыре заказа из пяти мы заканчиваем раньше срока
+                  </div>
+                  <img
+                    src="img/guarantee-icon.svg"
+                    alt=""
+                    class="block-items__icon"
+                  />
+                </div>
+                <div class="block-items__item">
+                  <h3 class="block-items__title">
+                    Гарантия<br />
+                    на работы 2 года
+                  </h3>
+                  <div class="block-items__line"></div>
+                  <div class="text-middle">
+                    Гарантия на выполненные работы прописывается в договоры,
+                    гарантия на выполненные работы прописывается в договоры
+                  </div>
+                  <img
+                    src="img/guarantee-icon.svg"
+                    alt=""
+                    class="block-items__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="banner">
+        <div class="banner__container container pt pb">
+          <div class="banner__body">
+            <div class="banner__title-group">
+              <img src="img/banner-icon.svg" alt="" class="banner__icon" />
+              <p class="banner__title text-demi">
+                Квалифицированные мастера и оборудование
+              </p>
+            </div>
+            <p class="banner__text text-middle">
+              Наши мастера проводят отделочные работы наилучшего качества в
+              максимально сжатые сроки. Предоставляем расширенную гарантию 3
+              года на все виды работ. Мастера работают с помощью
+              спецоборудования известной марки.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        <div class="price__container container">
+          <div class="price__head">
+            <div class="price__title-wrapper">
+              <p class="price__title text-middle text-heavy">Стоимость</p>
+              <p class="price__price text-demi">от 350 руб/м2</p>
+            </div>
+            <div class="price__image-wrapper">
+              <img src="img/price.png" alt="" class="price__image" />
+            </div>
+          </div>
+          <div class="price__body">
+            <div class="price__title-body text-heavy">
+              Что входит в стоимость:
+            </div>
+            <ul class="price__list">
+              <li class="price__item">
+                <div class="price__marker"></div>
+                <p class="price__text-item">Доставка, разгрузка на объект</p>
+              </li>
+              <li class="price__item">
+                <div class="price__marker"></div>
+                <p class="price__text-item">Выравнивание поверхности</p>
+              </li>
+              <li class="price__item">
+                <div class="price__marker"></div>
+                <p class="price__text-item">Упрочнение основания</p>
+              </li>
+              <li class="price__item">
+                <div class="price__marker"></div>
+                <p class="price__text-item">Установка маяков</p>
+              </li>
+              <li class="price__item">
+                <div class="price__marker"></div>
+                <p class="price__text-item">Гидро- и теплоизоляция</p>
+              </li>
+              <li class="price__item">
+                <div class="price__marker"></div>
+                <p class="price__text-item">Приготовление и заливка раствора</p>
+              </li>
+            </ul>
+            <button class="button button_accent popup-open">
+              Заказать бесплатный замер
+            </button>
+          </div>
+        </div>
+      </div>
+      <section class="gallery">
+        <div class="head-section">
+          <div
+            class="head-section__container head-section__container_pt container pt"
+          >
+            <h2 class="head-section__title">Наши работы</h2>
+            <p class="head-section__text text-large text-demi">
+              по механизированной шпаклевке стен
+            </p>
+          </div>
+        </div>
+        <div class="gallery__container container pb">
+          <div class="gallery__body">
+            <div class="gallery__item gallery__item-first">
+              <img src="img/gallery-foto1.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+            <div class="gallery__item">
+              <img src="img/gallery-foto2.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+            <div class="gallery__item">
+              <img src="img/gallery-foto3.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+            <div class="gallery__item">
+              <img src="img/gallery-foto4.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+            <div class="gallery__item">
+              <img src="img/gallery-foto5.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+            <div class="gallery__item">
+              <img src="img/gallery-foto6.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+            <div class="gallery__item">
+              <img src="img/gallery-foto7.jpg" alt="" class="gallery__image" />
+              <img src="img/gallery-icon.svg" alt="" class="gallery__icon">
+            </div>
+          </div>
+          <div class="gallery__popup">
+            <span class="gallery__popup-close">&times;</span>
+            <img src="" alt="" class="gallery__popup-image"/>
+          </div>
+          <button class="button">Загрузить еще</button>
+        </div>
+      </section>
+      <div class="application">
+        <div class="application__container container pt pb">
+          <div class="application__wrapper-image">
+            <picture>
+              <source
+                srcset="img/application.jpg"
+                media="(min-width: 992px)"
+                class="application__image"
+              />
+              <img
+                src="img/application-tablet.jpg"
+                alt=""
+                class="application__image"
+              />
+            </picture>
+          </div>
+          <div class="application__body">
+            <form id="application-form" class="form" action="#" method="post">
+              <div class="form__head-section head-section">
+                <h2 class="head-section__title text-heavy">Оставьте заявку</h2>
+                <p class="head-section__text text-large text-demi">
+                  на бесплатный замер
+                </p>
+              </div>
+              <div class="form__body">
+                <div class="form__item">
+                  <img src="img/user.svg" alt="" class="form__icon" />
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="username"
+                    placeholder="Как вас зовут?"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="form__item form__last-item">
+                  <img src="img/phone.svg" alt="" class="form__icon" />
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="phone"
+                    placeholder="Введите номер телефона"
+                    autocomplete="off"
+                  />
+                </div>
+                <input
+                  type="submit"
+                  class="form__button button button_accent"
+                  value="Заказать бесплатный замер"
+                />
+                <p class="form__text text-gray-light text-small">
+                  Нажимая на кнопку, вы даете согласие на обработку своих
+                  персональных данных
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="profit">
+        <div class="head-section">
+          <div class="head-section__container container">
+            <h2 class="head-section__title">Механизированный способ</h2>
+            <p class="head-section__text text-large text-demi">
+              быстрее и экономичнее
+            </p>
+          </div>
+        </div>
+        <div class="block-items">
+          <div class="container pb">
+            <div class="block-items__body">
+              <div class="block-items__items">
+                <div class="block-items__item">
+                  <h3 class="block-items__title">
+                    Скорость <br />
+                    до 150 м2 в день
+                  </h3>
+                  <div class="block-items__line"></div>
+                  <div class="text-middle">
+                    Механизированный способ нанесения позволяет за 1 день
+                    выровнять полы на площади до 150 м2.
+                  </div>
+                  <img
+                    src="img/guarantee-icon.svg"
+                    alt=""
+                    class="block-items__icon"
+                  />
+                </div>
+                <div class="block-items__item">
+                  <h3 class="block-items__title">
+                    Экономия <br />до 9 кг на м2
+                  </h3>
+                  <div class="block-items__line"></div>
+                  <div class="text-middle">
+                    Вы экономите на стоимости работ за счет автоматизации труда
+                    и меньшему расходу материала (экономия до 9 кг на каждом
+                    м2).
+                  </div>
+                  <img
+                    src="img/guarantee-icon.svg"
+                    alt=""
+                    class="block-items__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="calculator">
+        <div class="calculator__container container pt pb">
+          <div class="calculator__head">
+            <h2 class="calculator__title">
+              Рассчитайте за 1 минуту стоимость шпаклевки стен под ключ для
+              вашего обьекта
+            </h2>
+            <div class="calculator__bonus">
+              <img
+                src="img/calculator-icon.svg"
+                alt=""
+                class="calculator__icon"
+              />
+              <p class="calculator__text text-middle">за 1 минуту + бонус</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="banner banner_footer">
+        <div class="banner__container banner__container_footer container pt pb">
+          <div class="banner__body_footer">
+            <div class="banner__title-group banner__title-group_footer">
+              <img src="img/banner-icon.svg" alt="" class="banner__icon" />
+              <p class="banner__title text-demi">Уделяем внимание деталям</p>
+            </div>
+            <p class="banner__text banner__text_footer text-middle">
+              Соблюдаем СНИП 2.03.13-88 «ПОЛЫ» ГОСТ на полусухую стяжку
+            </p>
+            <ul class="banner__list">
+              <li class="banner__item">
+                <img
+                  src="img/banner-check.svg"
+                  alt=""
+                  class="banner__icon-item"
+                />
+                <p class="banner__text-item">Выдерживаем геометрию углов</p>
+              </li>
+              <li class="banner__item">
+                <img
+                  src="img/banner-check.svg"
+                  alt=""
+                  class="banner__icon-item"
+                />
+                <p class="banner__text-item">Делаем полы идеально ровными</p>
+              </li>
+              <li class="banner__item">
+                <img
+                  src="img/banner-check.svg"
+                  alt=""
+                  class="banner__icon-item"
+                />
+                <p class="banner__text-item">100% без трещин и протечек</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+  <div class="footer__container container">
+    <a class="footer__link-logo" href="index.html">
+      <img src="img/footer-logo.svg" alt="" class="footer__logo">
+    </a>
+    <p class="footer__description">Механизированная стяжка на немецком оборудовании в Нижнем Новгороде</p>
+    <div class="footer__contacts">
+      <div class="footer__contact">
+        <img src="img/header-map-icon.svg" alt="" class="footer__icon">
+        <p class="footer__text">Посёлок ждановский, <br> ул. Школьная д. 30 кв. 45 </p>
+      </div>
+      <div class="footer__contact">
+        <img src="img/header-mail-icon.svg" alt="" class="footer__icon">
+        <p>osipov_902010@mail.ru</p>
+      </div>
+    </div>
+    <div class="footer__info">
+      <p class="footer__time">Работаем с 9:00 до 20:00</p>
+      <p class="footer__phone text-demi">+7 (920) 020-60-49</p>
+    </div>
+    <a class="footer__confidentiality" href="">
+      <p>Политика конфиденциальности</p>
+    </a>
+    <div class="footer__buttons">
+      <button class="footer__button button button_gradient">Задать Вопрос <span>по WhatsApp</span></button>
+      <button class="footer__button button button_accent popup-open">Заказать бесплатный замер</button>
+    </div>
+  </div>
+</footer>
+
+    <div id="header-popup" class="header-popup">
+      <img
+        id="header-popup-close"
+        class="header-popup__close"
+        src="img/close.svg"
+        alt=""
+      />
+      <div class="header-popup__inner">
+        <p class="header-popup__description">
+          Механизированная стяжка<br />
+          на немецком оборудовании<br />
+          в Нижнем Новгороде
+        </p>
+        <div class="header-popup__info">
+          <p class="header-popup__time">Работаем с 9:00 до 20:00</p>
+          <p class="header-popup__phone text-demi text-large">
+            +7 (920) 020-60-49
+          </p>
+        </div>
+        <button class="header-popup__button button popup-open">
+          Обратный звонок
+        </button>
+        <div class="header-popup__contacts">
+          <div class="header-popup__contact">
+            <img
+              src="img/header-map-icon.svg"
+              alt=""
+              class="header-popup__icon"
+            />
+            <p class="header-popup__text">
+              Посёлок Ждановский, <br />
+              ул. Школьная д. 30 кв. 45
+            </p>
+          </div>
+          <div class="header-popup__contact">
+            <img
+              src="img/header-mail-icon.svg"
+              alt=""
+              class="header-popup__icon"
+            />
+            <p>osipov_902010@mail.ru</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup" class="popup">
+      <form id="form" class="form form_popup" action="#" method="post">
+        <img id="popup-close" class="form__close" src="img/close.svg" alt="" />
+        <div class="form__head-section form__head-section_popup head-section">
+          <h2 class="head-section__title text-demi">Заказать звонок</h2>
+          <p class="head-section__text-popup text-gray-light text-small">
+            Оставьте ваши контакты и менеджер свяжется с вами
+          </p>
+        </div>
+        <div class="form__body form__body_popup">
+          <div class="form__item">
+            <img src="img/user.svg" alt="" class="form__icon" />
+            <input
+              class="form__input"
+              type="text"
+              name="username"
+              placeholder="Как вас зовут?"
+              required
+              autocomplete="off"
+            />
+          </div>
+          <div class="form__item form__last-item">
+            <img src="img/phone.svg" alt="" class="form__icon" />
+            <input
+              class="form__input"
+              type="tel"
+              name="phone"
+              placeholder="Введите номер телефона"
+              required
+              autocomplete="off"
+            />
+          </div>
+          <input
+            type="submit"
+            class="form__button button button_accent"
+            value="Заказать бесплатный замер"
+          />
+          <p class="form__text text-gray-light text-small">
+            Нажимая на кнопку, вы даете согласие на обработку своих персональных
+            данных
+          </p>
+        </div>
+      </form>
+    </div>
+    <script defer src="js/index.js"></script>
+  </body>
+</html>
